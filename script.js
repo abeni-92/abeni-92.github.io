@@ -6,6 +6,9 @@ const modal = document.querySelector('.modal');
 const nav = document.querySelector('nav');
 const close = document.querySelector('.close');
 
+
+modal.style.display = 'none';
+
 links.forEach((link) => {
 	link.addEventListener("click", (e) => {
 		e.preventDefault();
@@ -42,8 +45,4 @@ bar.addEventListener("click", () => {
 close.addEventListener("click", () => {
 	modal.style.display = 'none';
 	nav.style.display = 'flex'
-})
-
-document.addEventListener("DOMContentLoaded", () => {
-	modal.style.display = 'none';
 })
