@@ -7,7 +7,7 @@ const nav = document.querySelector('nav');
 const close = document.querySelector('.close');
 
 
-modal.style.display = 'none';
+modal.style.opacity = 0;
 
 links.forEach((link) => {
 	link.addEventListener("click", (e) => {
