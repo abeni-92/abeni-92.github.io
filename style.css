@@ -149,6 +149,7 @@ nav ul li .active, nav ul li a:hover {
   justify-content: space-between;
   background-color: #f3f5f5;
   color: #222;
+  min-height: 85vh;
 }
 #home .left {
   width: 55vw;
